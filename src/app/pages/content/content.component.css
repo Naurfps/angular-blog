@@ -11,11 +11,11 @@
 }
 
 .content__cover{
-  border: 1px solid grey;
+  border: 5px solid grey;
+  border-radius: 10px;
 }
 
 .content__cover img{
-  border: 1px solid red;
   width: 500px;
   min-width: 500px;
   height: 300px;
@@ -28,4 +28,9 @@
 .content__description p {
   margin-top: 20px;
   color: rgb(168, 167, 167);
+}
+
+.content__description a {
+  display: flex;
+  justify-content: center;
 }
